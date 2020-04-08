@@ -1,0 +1,17 @@
+# Program: Shirt Sale
+# Complete program using   if, elif, else
+# Get user input for variable size (S, M, L)
+# reply with each shirt size and price (Small = $ 6, Medium = $ 7, Large = $ 8)
+# if the reply is other than S, M, L, give a message for not available
+# optional: add additional sizes
+# [ ] code and test SHIRT SALE
+
+shirt_size = input("Please enter shirt size (S, M, L): ")
+if shirt_size.lower() == 's':
+  print("Small = $ 6")
+elif shirt_size.lower() == 'm':
+  print("Medium = $ 7")
+elif shirt_size.lower() == 'l':
+ print("Large = $ 8")
+else:
+  print("I dont know the price for", shirt_size)
