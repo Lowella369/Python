@@ -1,0 +1,17 @@
+#Define and call a simple function   yell_it()
+#yell_it()   prints the phrase with "!" concatenated to the end
+#takes no arguments
+#indented function code does the following 
+#define a variable for called phrase and initialize with a short phrase
+#prints phrase as all upper-case letters followed by "!"
+#call   yell_it   at the bottom of the cell after the function  def (Tip: no indentation should be used)
+#[ ] define (def) a simple function called yell_it() and call the function
+
+# Answer to the exercise
+# [] define a simple function called yell_it() call the function
+def yell_it():
+  phrase = "Where are you!!!"
+  print(phrase)
+# end of funtion
+
+yell_it()
