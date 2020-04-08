@@ -1,0 +1,9 @@
+[ ] Create a program where a user can check if an item is on the menu
+•	store the user response in a variable menu_ask
+•	use the menu from above and add some additional items
+•	the program should be able to ignore case mismatch so that "hello" is found in "Hello World!"
+
+Answer:
+menu = "salad, pasta, sandwich, pizza, drinks, dessert, taco, humba"
+menu_ask = input("What's your order?: ")
+print("Is ", menu_ask, "is on the menu? ", menu_ask.lower() in menu.lower())
