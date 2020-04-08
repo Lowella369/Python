@@ -1,0 +1,15 @@
+Define yell_this() and call with variable argument
+•	define variable   words_to_yell   as a string gathered from user  input()
+•	Call  yell_this()  with   words_to_yell  as argument
+•	get user input() for the string words_to_yell
+
+Answer:
+# [ ] define yell_this()
+def yell_this(words_to_yell):
+  print(words_to_yell)
+
+# [ ] get user input in variable words_to_yell
+words_to_yell = input("Words to yell!: ")
+
+# [ ] call yell_this function with words_to_yell as argument
+yell_this(words_to_yell)
