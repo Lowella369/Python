@@ -1,0 +1,19 @@
+# create this program with a Boolean function bird_available()
+# has parameter that takes the name of a type of bird
+# for this exercise the variable bird_types = 'crow robin parrot eagle sandpiper hawk pigeon'
+# return True or False (we are making a Boolean function)
+# call the function using the name of a bird type from user input
+# print a sentence that indicates the availability of the type of bird checked
+# [ ] create function bird_available
+def bird_available(bird_name):
+  bird_types = 'crow robin parrot eagle sandpiper hawk pigeon'
+  return bird_name.lower() in bird_types
+
+# [ ] user input
+bird_name = input("Enter the name of the bird: ")
+
+# [ ] call bird_available
+is_available = bird_available(bird_name)
+
+# [ ] print availability status
+print(bird_name, "is available: ",  is_available)
